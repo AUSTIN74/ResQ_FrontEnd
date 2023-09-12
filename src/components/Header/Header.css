@@ -1,0 +1,24 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  body{
+    /* background: url("https://c4.wallpaperflare.com/wallpaper/248/693/81/gradient-colorful-abstract-simple-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center; */
+    background-color: rgb(247, 247, 247);
+  }
+  .Header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .HeadRight {
+    display: flex;
+  }
+  .HeadRight p{
+    padding: 0 20px;
+  }

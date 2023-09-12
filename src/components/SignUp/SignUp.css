@@ -1,0 +1,37 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .container{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+    justify-content: space-around;
+    align-items:center;
+  }
+
+   form input[type="text"]{
+    display: flex;
+    width: 450px;
+    padding: 12px 15px;
+    background:#ffffff;
+    color: black;
+    border-bottom: 2px solid rgb(16, 134, 213);
+    /* outline: none; */
+    margin: 15px 0;
+    /* border-radius: 10px; */
+    align-items: center;
+}
+
+.authbutton{
+  padding: 12px 40px;
+  background:rgb(16, 134, 213);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: default;
+  transition: .3s ease;
+}

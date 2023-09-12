@@ -1,0 +1,108 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  body{
+    /* background: url("https://c4.wallpaperflare.com/wallpaper/52/613/66/pastel-colorful-minimalism-windows-10-vysakhjanan-hd-wallpaper-preview.jpg"); */
+    /* background-size: cover;
+    background-position: center; */
+    background-color: white;
+  }
+  
+  .container{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+    justify-content: space-around;
+    align-items:center;
+  }
+
+   form input[type="text"]{
+    display: flex;
+
+    width: 450px;
+    padding: 12px 15px;
+    background:#ffffff;
+    color: black;
+    border: none;
+    outline: none;
+    margin: 15px 0;
+    /* border-radius: 5px; */
+    align-items: center;
+}
+
+.logbutton{
+    padding: 12px 40px;
+    background:rgb(16, 134, 213);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: default;
+    transition: .3s ease;
+}
+
+.social{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.socbutton{
+  padding: 8px 20px;
+  background:rgb(0, 0, 0);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: default;
+  transition: .3s ease;
+}
+
+.createbutton{
+  padding: 12px 40px;
+  background:rgb(255, 255, 255);
+  color: rgb(41, 41, 41);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  cursor: default;
+  transition: .3s ease;
+}
+/* .authbutton:hover{
+    background:rgb(83, 130, 14);
+    color: var(--bg-color);
+    transition: .3s ease;
+    transform: scale(1.1);
+} */
+
+
+.container .left h1{
+    font-size: 3rem;
+}
+
+
+.container .right{
+    border-radius: 5px;
+}
+
+.buttons{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.remndfor{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: space-between;
+}
+.check{
+  display: flex;
+  flex-wrap: nowrap;
+}
